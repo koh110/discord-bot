@@ -1,9 +1,12 @@
 {
+  "type": "module",
   "scripts": {
     "dev": "wrangler dev src/index.ts",
-    "deploy": "wrangler deploy --minify src/index.ts"
+    "deploy": "wrangler deploy --minify src/index.ts",
+    "register": "node  --env-file=.dev.vars src/register.js"
   },
   "dependencies": {
+    "discord-interactions": "^3.4.0",
     "hono": "^3.9.1"
   },
   "devDependencies": {

@@ -1,0 +1,13 @@
+name = "discord-bot"
+compatibility_date = "2023-01-01"
+
+routes = [
+  { pattern = "discord-bot.koh.dev", custom_domain = true }
+]
+
+[vars]
+
+# [secrets]
+# DISCORD_TOKEN = ""
+# DISCORD_PUBLIC_KEY = ""
+# DISCORD_APPLICATION_ID = ""
